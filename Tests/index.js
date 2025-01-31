@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req,res)=>{
-    res.write("Welcome to applicayion \n");// appends to the response
+    res.write("Welcome to application \n");// appends to the response
     //console.log(req.url);
     if(req.url == "/prod"){
         res.end("This is product page");
